@@ -234,6 +234,7 @@ Following is a list of all lint rules provided by Prototool as well as what lint
 |MESSAGE_FIELDS_TIME | Verifies that all non-map fields that contain `time` in their name are of type `google.protobuf.Timestamp`. | none |
 |MESSAGE_NAMES_CAMEL_CASE | Verifies that all non-extended message names are CamelCase. | google, uber1, uber2 |
 |MESSAGE_NAMES_CAPITALIZED | Verifies that all non-extended message names are Capitalized. | google, uber1, uber2 |
+|MESSAGE_NAME_SAME_AS_FILE_NAME | Verifies message name same as file name Capitalized CamelCase | none |
 |MESSAGES_HAVE_COMMENTS_EXCEPT<br>_REQUEST_RESPONSE_TYPES | Verifies that all non-extended messages except for request and response types have a comment of the form `// MessageName ...`. | none |
 |MESSAGES_HAVE_COMMENTS | Verifies that all non-extended messages have a comment of the form `// MessageName ...`. | none |
 |MESSAGES_HAVE_SENTENCE_COMMENTS<br>_EXCEPT_REQUEST_RESPONSE_TYPES | Verifies that all non-extended messages except for request and response types have a comment that contains at least one complete sentence. | uber2 |
