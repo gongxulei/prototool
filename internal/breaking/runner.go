@@ -21,9 +21,9 @@
 package breaking
 
 import (
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/settings"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/extract"
+	"github.com/gongxulei/prototool/internal/settings"
+	"github.com/gongxulei/prototool/internal/text"
 	"go.uber.org/zap"
 )
 

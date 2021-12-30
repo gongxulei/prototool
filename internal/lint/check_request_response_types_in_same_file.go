@@ -25,7 +25,7 @@ import (
 	"text/scanner"
 
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/text"
 )
 
 var requestResponseTypesInSameFileLinter = NewLinter(

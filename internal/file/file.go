@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/uber/prototool/internal/settings"
+	"github.com/gongxulei/prototool/internal/settings"
 	"go.uber.org/zap"
 )
 

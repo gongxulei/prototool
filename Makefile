@@ -166,7 +166,7 @@ grpcgen: $(CERTSTRAP)
 .PHONY: updatedeps
 updatedeps:
 	rm -f go.mod go.sum
-	go mod init github.com/uber/prototool
+	go mod init github.com/gongxulei/prototool
 	go get -u ./...
 	$(MAKE) generate
 	$(MAKE)

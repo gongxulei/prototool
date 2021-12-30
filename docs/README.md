@@ -418,10 +418,10 @@ contribution to Prototool's functionality:
   work.
 
 [mit-img]: http://img.shields.io/badge/License-MIT-blue.svg
-[mit]: https://github.com/uber/prototool/blob/master/LICENSE
+[mit]: https://github.com/gongxulei/prototool/blob/master/LICENSE
 
 [release-img]: https://img.shields.io/github/release/uber/prototool/all.svg
-[release]: https://github.com/uber/prototool/releases
+[release]: https://github.com/gongxulei/prototool/releases
 
 [ci-img]: https://img.shields.io/buildkite/5faf32c23003786e641b9140ee98175b81c8bae973ae188415/dev.svg
 [ci]: https://buildkite.com/uberopensource/prototool

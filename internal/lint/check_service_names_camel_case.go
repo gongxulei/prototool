@@ -22,8 +22,8 @@ package lint
 
 import (
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/strs"
+	"github.com/gongxulei/prototool/internal/text"
 )
 
 var serviceNamesCamelCaseLinter = NewLinter(

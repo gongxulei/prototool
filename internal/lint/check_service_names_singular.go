@@ -25,9 +25,9 @@ import (
 
 	"github.com/emicklei/proto"
 	"github.com/gobuffalo/flect"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/file"
+	"github.com/gongxulei/prototool/internal/strs"
+	"github.com/gongxulei/prototool/internal/text"
 )
 
 var serviceNamesNoPluralsLinter = NewSuppressableLinter(

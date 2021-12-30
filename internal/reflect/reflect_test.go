@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/jsonpb"
+	reflectv1 "github.com/gongxulei/prototool/internal/reflect/gen/uber/proto/reflect/v1"
+	ptesting "github.com/gongxulei/prototool/internal/testing"
 	"github.com/stretchr/testify/require"
-	reflectv1 "github.com/uber/prototool/internal/reflect/gen/uber/proto/reflect/v1"
-	ptesting "github.com/uber/prototool/internal/testing"
 )
 
 func TestOne(t *testing.T) {

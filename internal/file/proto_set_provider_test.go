@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/gongxulei/prototool/internal/settings"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber/prototool/internal/settings"
 	"go.uber.org/zap"
 )
 

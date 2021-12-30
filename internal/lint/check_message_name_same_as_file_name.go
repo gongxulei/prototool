@@ -2,8 +2,8 @@ package lint
 
 import (
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/strs"
+	"github.com/gongxulei/prototool/internal/text"
 	"path/filepath"
 	"strings"
 )
@@ -23,19 +23,15 @@ type messageNamesSameAsFileNameVisitor struct {
 	filename string
 }
 
-
 func (v *messageNamesSameAsFileNameVisitor) OnStart(descriptor *FileDescriptor) error {
 	v.filename = descriptor.Filename
 	return nil
 }
 
-
-
 func (v *messageNamesSameAsFileNameVisitor) Finally() error {
 
 	return nil
 }
-
 
 func (v *messageNamesSameAsFileNameVisitor) VisitMessage(message *proto.Message) {
 	// fmt.Println("filename: ", v.filename)

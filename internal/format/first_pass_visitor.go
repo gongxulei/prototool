@@ -24,8 +24,8 @@ import (
 	"sort"
 
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/protostrs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/gongxulei/prototool/internal/protostrs"
+	"github.com/gongxulei/prototool/internal/text"
 )
 
 var _ proto.Visitor = &firstPassVisitor{}

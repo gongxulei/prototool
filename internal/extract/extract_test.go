@@ -23,9 +23,9 @@ package extract
 import (
 	"testing"
 
+	"github.com/gongxulei/prototool/internal/reflect"
+	ptesting "github.com/gongxulei/prototool/internal/testing"
 	"github.com/stretchr/testify/require"
-	"github.com/uber/prototool/internal/reflect"
-	ptesting "github.com/uber/prototool/internal/testing"
 )
 
 func TestOne(t *testing.T) {

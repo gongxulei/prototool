@@ -35,9 +35,9 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/gongxulei/prototool/internal/exec"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
-	"github.com/uber/prototool/internal/exec"
 )
 
 // when generating man pages, the current date is used
