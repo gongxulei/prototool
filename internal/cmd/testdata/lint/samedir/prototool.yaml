@@ -1,0 +1,5 @@
+lint:
+  rules:
+    remove:
+      - FILE_OPTIONS_GO_PACKAGE_SAME_IN_DIR
+      - FILE_OPTIONS_JAVA_PACKAGE_SAME_IN_DIR

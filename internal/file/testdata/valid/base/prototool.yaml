@@ -1,0 +1,5 @@
+excludes:
+  - c/i
+  - d
+protoc:
+  version: 3.4.0
